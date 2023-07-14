@@ -1,4 +1,4 @@
-const { index, getAllProducts, insertProduct, insertImage, deleteImage } = require("../controllers/product/productController");
+const { index, getAllProducts, insertProduct, insertImage, deleteImage} = require("../controllers/product/productController");
 const { body } = require('express-validator');
 const express = require('express');
 const router = express.Router();
